@@ -26,7 +26,7 @@ resource "azurerm_mssql_server" "mssql1" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -46,7 +46,7 @@ resource "azurerm_mssql_server" "mssql2" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -66,7 +66,7 @@ resource "azurerm_mssql_server" "mssql3" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -86,7 +86,7 @@ resource "azurerm_mssql_server" "mssql4" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -106,7 +106,7 @@ resource "azurerm_mssql_server" "mssql5" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -126,7 +126,7 @@ resource "azurerm_mssql_server" "mssql6" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
@@ -146,7 +146,7 @@ resource "azurerm_mssql_server" "mssql7" {
   administrator_login          = "missadministrator"
   administrator_login_password = "AdminPassword123!"
   tags = {
-    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
+    git_commit           = "c6f8caa51942284d02465518822685897ad90141"
     git_file             = "terraform/azure/mssql.tf"
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
