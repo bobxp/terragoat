@@ -30,6 +30,9 @@ resource "azurerm_key_vault" "example" {
     }, {
     yor_name = "example"
   })
+  network_acls {
+    default_action = "Deny"
+  }
 }
 
 resource "azurerm_key_vault_key" "generated" {
@@ -46,12 +49,12 @@ resource "azurerm_key_vault_key" "generated" {
     "wrapKey",
   ]
   tags = {
-    git_commit           = "898d5beaec7ffdef6df0d7abecff407362e2a74e"
+    git_commit           = "3ac5e40c24f7d8e0bdb324f8ba7cece627a534f1"
     git_file             = "terraform/azure/key_vault.tf"
-    git_last_modified_at = "2020-06-17 12:59:55"
-    git_last_modified_by = "nimrodkor@gmail.com"
+    git_last_modified_at = "2021-05-02 10:06:10"
+    git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
+    git_org              = "bobxp"
     git_repo             = "terragoat"
     yor_trace            = "afbc6e13-63d9-4e6c-8914-d58b7744b5dd"
     yor_name             = "generated"
